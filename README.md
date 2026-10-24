@@ -28,7 +28,7 @@ Dataset: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE339526
 4. Calculated mean CCDC69 expression for each set of three samples.
 5. Created plots using Matplotlib.
 
-5. Results
+Results
 
 The dataset contained 23,315 records and six sample columns. Initial checks found no missing values or duplicate rows.
 
@@ -38,6 +38,7 @@ The mean CCDC69 expression was:
 - Second sample group: 5.598 FPKM
 
 The first group had approximately 39% higher mean expression than the second group. This is a descriptive comparison only; the biological identities of the file's sample groups still require confirmation.
+
 Graph 1: CCDC69 Expression Comparison
 
 "CCDC69 expression comparison" (ccdc69_expression.png)
@@ -45,15 +46,16 @@ Graph 1: CCDC69 Expression Comparison
 Graph 2: Expression Distribution Across Samples
 
 "Expression distribution across samples" (expression_distribution.png)
+
 6. Limitations
 
-1. The analysis used FPKM values rather than raw read counts.
-2. Exact mapping between file columns and GEO sample annotations remains unconfirmed.
-3. Statistical significance was not tested.
-4. The results do not establish causation.
-5. The findings should not be interpreted as proof of a treatment effect.
+- The analysis used FPKM values rather than raw read counts.
+- Exact mapping between file columns and GEO sample annotations remains unconfirmed.
+- Statistical significance was not tested.
+- The results do not establish causation.
+- The findings should not be interpreted as proof of a treatment effect.
 
-7. Conclusion
+Conclusion
 
 Python was used to inspect the RNA-seq dataset and compare CCDC69 expression across two sets of samples. The first group had a higher mean expression value. Further sample verification and suitable statistical analysis are needed before drawing biological conclusions.
 
