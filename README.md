@@ -38,7 +38,13 @@ The mean CCDC69 expression was:
 - Second sample group: 5.598 FPKM
 
 The first group had approximately 39% higher mean expression than the second group. This is a descriptive comparison only; the biological identities of the file's sample groups still require confirmation.
+Graph 1: CCDC69 Expression Comparison
 
+"CCDC69 expression comparison" (ccdc69_expression.png)
+
+Graph 2: Expression Distribution Across Samples
+
+"Expression distribution across samples" (expression_distribution.png)
 6. Limitations
 
 1. The analysis used FPKM values rather than raw read counts.
